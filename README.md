@@ -53,3 +53,10 @@
 > + [**query.txt**](https://github.com/LiePleased/FindShortestPath/blob/master/data/input/query.txt)：写入查询需求，由地点的标识名确定；
 
 输入的具体格式可参照仓库下 data 文件夹中的样例输入。另外，一定要注意：**输入文件结尾不允许有多余的空行**！
+
+### 4，执行 Jar 包
+
+首先现在 data 文件夹下再新建一个 output 文件夹作为输出目录。然后在 CMD 中输入命令：
+
+
+
