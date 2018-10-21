@@ -1,6 +1,6 @@
 package utils;
 
-import node.Site;
+import graph.Site;
 
 public class Measure {
 

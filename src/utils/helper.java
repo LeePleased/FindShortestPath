@@ -1,6 +1,6 @@
 package utils;
 
-import node.Site;
+import graph.Site;
 import java.util.List;
 
 public class helper {

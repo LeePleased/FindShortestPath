@@ -1,6 +1,6 @@
 package stream;
 
-import node.Site;
+import graph.Site;
 import utils.helper;
 
 import java.io.File;
