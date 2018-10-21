@@ -10,7 +10,7 @@ import java.util.Collections;
 public class Dijstra {
 
     // 定义无穷距离.
-    private final static double INF_DISTANCE_VALUE = 1e9;
+    public final static double INF_DISTANCE_VALUE = 1e9;
 
     // 定义源节点和图节点信息.
     private final String sourceNodeName;
@@ -59,19 +59,19 @@ public class Dijstra {
         this.minDistanceVector[sourceIndex] = 0.0;
 
         // 记录是否访问到某个节点过.
-        Boolean[] VisitedVector = new Boolean[this.totalNodeNumber];
+        Boolean[] visitedVector = new Boolean[this.totalNodeNumber];
         for (int index = 0; index < this.totalNodeNumber; index += 1) {
-            VisitedVector[index] = false;
+            visitedVector[index] = false;
         }
 
         // 迭代优化网络权重.
-        for (int epoch = 0; epoch < totalNodeNumber; epoch += 1) {
+        for (int epoch = 0; epoch <= totalNodeNumber; epoch += 1) {
             int currentBestIndex = -1;
             double currentMinDistance = Dijstra.INF_DISTANCE_VALUE;
 
             for (int index = 0; index < this.totalNodeNumber; index += 1) {
                 // 如果没有访问过而且比当前最短路径还小.
-                if(!VisitedVector[index] && this.minDistanceVector[index] < currentMinDistance) {
+                if(!visitedVector[index] && this.minDistanceVector[index] < currentMinDistance) {
                     currentBestIndex = index;
                     currentMinDistance = this.minDistanceVector[index];
                 }
@@ -81,6 +81,7 @@ public class Dijstra {
             if (currentBestIndex == -1) {
                 break;
             }
+            visitedVector[currentBestIndex] = Boolean.TRUE;
 
             // 松弛更新其他节点.
             Site currentSite = siteList.get(currentBestIndex);

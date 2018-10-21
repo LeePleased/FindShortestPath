@@ -1,5 +1,6 @@
 package stream;
 
+import graph.Path;
 import graph.Site;
 import utils.helper;
 
@@ -13,7 +14,7 @@ import java.util.ArrayList;
 
 public class Reader {
 
-    public static List getNodes(String filePath) {
+    public static List<Site> getNodes(String filePath) {
         File file = new File(filePath);
 
         // 如果文件不存在, 退出程序.
@@ -25,7 +26,7 @@ public class Reader {
         try (Scanner scanner = new Scanner(file)){
 
             while (scanner.hasNext()){
-                String[] items = scanner.nextLine().split("\t");
+                String[] items = scanner.nextLine().split("\\s+");
 
                 siteList.add(new Site(
                         items[0].trim(),
@@ -51,7 +52,7 @@ public class Reader {
         try (Scanner scanner = new Scanner(file)){
 
             while (scanner.hasNext()) {
-                String[] items = scanner.nextLine().split("\t");
+                String[] items = scanner.nextLine().split("\\s+");
 
                 String nameA = items[0].trim();
                 String nameB = items[1].trim();
@@ -74,5 +75,27 @@ public class Reader {
             System.exit(0);
         }
 
+    }
+
+    public static List<Path> getQueries(String filePath) {
+        File file = new File(filePath);
+        List<Path> pathList = new ArrayList<>();
+
+        // 预检测, 防 bug.
+        assert file.exists();
+
+        try (Scanner scanner = new Scanner(file)){
+
+            while (scanner.hasNext()) {
+                String[] items = scanner.nextLine().split("\\s+");
+                pathList.add(new Path(items[0], items[1]));
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.exit(0);
+        }
+
+        return pathList;
     }
 }
