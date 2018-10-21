@@ -48,3 +48,7 @@
 <img width=600 heigh=200 src="https://github.com/LiePleased/FindShortestPath/blob/master/photo/2.png" />
 </div>
 
+> + [**node.txt**](https://github.com/LiePleased/FindShortestPath/blob/master/data/input/node.txt)：写入地点信息，包括标识名、经纬度；
+> + [**edge.txt**](https://github.com/LiePleased/FindShortestPath/blob/master/data/input/edge.txt)：写入路径约束，即存在直线可达的顶点对；
+> + [**query.txt**](https://github.com/LiePleased/FindShortestPath/blob/master/data/input/query.txt)：写入查询需求，由地点的标识名确定；
+
