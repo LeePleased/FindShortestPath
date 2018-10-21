@@ -33,3 +33,11 @@
 <div align=center>
 <img width=400 heigh=400 src="https://github.com/LiePleased/FindShortestPath/blob/master/photo/4.png" />
 </div>
+
+下载安装后，还需要配置环境变量。打开控制面板，在系统变量中设置如下：
+
+> + **JAVA_HOME**：\path\to\jdk（即 JDK 安装的绝对路径）
+> + **CLASSPATH**：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;（照抄）
+> + **Path**：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
+
+
