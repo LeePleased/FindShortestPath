@@ -42,5 +42,9 @@
 
 ### 3，写入地图信息
 
-在下载 Jar 包的所在目录新建一个 data 文件夹，再在 data 文件夹中分别新建 input 和 output 两个子文件夹：
+在下载 Jar 包的所在目录新建一个 data 文件夹，再在 data 文件夹中新建 input 文件夹作为输入目录，其内容如下：
+
+<div align=center>
+<img width=700 heigh=300 src="https://github.com/LiePleased/FindShortestPath/blob/master/photo/2.png" />
+</div>
 
