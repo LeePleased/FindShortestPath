@@ -38,6 +38,8 @@
 
 > + **JAVA_HOME**：\path\to\jdk（即 JDK 安装的绝对路径）
 > + **CLASSPATH**：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;（照抄）
-> + **Path**：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
+> + **Path**：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin（增加原有路径）
+
+### 3，写入地图信息
 
 
