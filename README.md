@@ -28,4 +28,4 @@
 
 ### 2，配置 JVM 环境
 
-去 JDK 官网上下载
+去 [Java-SE](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 官网上下载 JDK（JVM） 安装包，如下图所示：
