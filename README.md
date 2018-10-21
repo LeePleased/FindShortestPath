@@ -58,5 +58,8 @@
 
 首先现在 data 文件夹下再新建一个 output 文件夹作为输出目录。然后在 CMD 中输入命令：
 
+        java -jar Dfile.encoding=UTF-8 ShortestPath.jar
+        
+然后查看 output 文件夹下的 suggest.txt 文件，其中的内容就是输出结果了。
 
 
