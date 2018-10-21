@@ -45,6 +45,6 @@
 在下载 Jar 包的所在目录新建一个 data 文件夹，再在 data 文件夹中新建 input 文件夹作为输入目录，其内容如下：
 
 <div align=center>
-<img width=700 heigh=300 src="https://github.com/LiePleased/FindShortestPath/blob/master/photo/2.png" />
+<img width=600 heigh=200 src="https://github.com/LiePleased/FindShortestPath/blob/master/photo/2.png" />
 </div>
 
