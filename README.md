@@ -52,3 +52,4 @@
 > + [**edge.txt**](https://github.com/LiePleased/FindShortestPath/blob/master/data/input/edge.txt)：写入路径约束，即存在直线可达的顶点对；
 > + [**query.txt**](https://github.com/LiePleased/FindShortestPath/blob/master/data/input/query.txt)：写入查询需求，由地点的标识名确定；
 
+输入的具体格式可参照仓库下 data 文件夹中的样例输入。另外，一定要注意：**输入文件结尾不允许有多余的空行**！
