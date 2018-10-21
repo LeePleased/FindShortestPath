@@ -18,7 +18,13 @@
 
 <div align=center>
 <img width=700 heigh=300 src="https://github.com/LiePleased/FindShortestPath/blob/master/photo/0.png" />
-</div
+</div>
+
+然后点击进入并将它 download 下来，如下图：
+
+<div align=center>
+<img width=700 heigh=300 src="https://github.com/LiePleased/FindShortestPath/blob/master/photo/1.png" />
+</div>
 
 ### 配置 JVM 环境
 
