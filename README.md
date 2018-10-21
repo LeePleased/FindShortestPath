@@ -16,7 +16,9 @@
 
 首先在仓库目录下找到 Jar 包的位置，如下图：
 
+<div align=center>
 <img width=700 heigh=300 src="https://github.com/LiePleased/FindShortestPath/blob/master/photo/0.png" />
+</div
 
 ### 配置 JVM 环境
 
