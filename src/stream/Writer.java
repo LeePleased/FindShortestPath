@@ -6,6 +6,7 @@ import graph.Path;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+
 import java.util.List;
 
 
@@ -33,6 +34,17 @@ public class Writer {
                 writer.write('\n');
             }
 
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.exit(0);
+        }
+    }
+
+    public static void writeQuery(String filePath, String source, String target) {
+        File file = new File(filePath);
+
+        try (FileWriter writer = new FileWriter(file)){
+            writer.write(source + "\t" + target);
         } catch (IOException e) {
             e.printStackTrace();
             System.exit(0);

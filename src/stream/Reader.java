@@ -2,7 +2,8 @@ package stream;
 
 import graph.Path;
 import graph.Site;
-import utils.helper;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+import utils.Helper;
 
 import java.io.File;
 import java.util.Scanner;
@@ -57,8 +58,8 @@ public class Reader {
                 String nameA = items[0].trim();
                 String nameB = items[1].trim();
 
-                Site nodeA = helper.queryInList(nameA, siteList);
-                Site nodeB = helper.queryInList(nameB, siteList);
+                Site nodeA = Helper.queryInList(nameA, siteList);
+                Site nodeB = Helper.queryInList(nameB, siteList);
                 if (nodeB == null || nodeA == null) {
                     System.out.println("查询节点不存在, 请检查 edge.txt 的输入格式.");
                     System.exit(0);
@@ -97,5 +98,27 @@ public class Reader {
         }
 
         return pathList;
+    }
+
+    public static List<String> getSolution(String filePath) {
+        File file = new File(filePath);
+
+        List<String> bestPath = new ArrayList<>();
+        try (Scanner scanner = new Scanner(file)){
+
+            String[] sites = scanner.nextLine().split(":")[1].split("\\s+");
+
+            for (String site : sites) {
+                if (!(site.equals("") || site.equals(" ") || site.equals("\n"))) {
+                    bestPath.add(site);
+                }
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.exit(0);
+        }
+
+        return bestPath;
     }
 }
