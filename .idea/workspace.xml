@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ShortestPath:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8780cf36-8bb3-4361-8ab1-8d26e86c698e" name="Default Changelist" comment="" />
+    <list default="true" id="8780cf36-8bb3-4361-8ab1-8d26e86c698e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/input/query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/suggest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/suggest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShortestPath_jar/ShortestPath.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShortestPath_jar/ShortestPath.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/gui/IOSurface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPath/gui/IOSurface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/IOSurface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/IOSurface.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +28,12 @@
     <session id="-644829817">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,13 +54,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
-          <entry key="java" value="10031" />
+          <entry key="java" value="10046" />
           <entry key="txt" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10031" />
+          <entry key="JAVA" value="10046" />
           <entry key="PLAIN_TEXT" value="306" />
         </counts>
       </usages-collector>
@@ -58,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/IOSurface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+            <state relative-caret-position="242">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/stream/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/CtrlButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="52" column="46" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="48" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -161,8 +171,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="269" />
-    <option name="y" value="46" />
+    <option name="x" value="212" />
+    <option name="y" value="35" />
     <option name="width" value="971" />
     <option name="height" value="708" />
   </component>
@@ -182,19 +192,20 @@
             <path>
               <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="FindShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="FindShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="FindShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="ShortestPath_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
@@ -222,11 +233,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542742791752" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542743978202" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data/data" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -293,10 +304,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="475" y="97" width="971" height="708" extended-state="0" />
-    <editor active="true" />
+    <frame x="212" y="35" width="971" height="708" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.46693227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46594596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -306,17 +316,17 @@
       <window_info id="Azure Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49816403" visible="true" weight="0.3586207" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49816403" weight="0.3586207" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.499388" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="SBT Console" order="7" />
+      <window_info anchor="bottom" id="SBT Console" order="7" weight="0.32931036" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="8" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32931036" />
       <window_info anchor="bottom" id="HDInsight Spark Submission" order="13" />
       <window_info anchor="bottom" id="SBT Execute" order="14" sideWeight="0.501836" side_tool="true" weight="0.29655173" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32298136" />
@@ -368,6 +378,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gui/IOSurface.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/gui/Background.java" />
@@ -424,9 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="112" column="39" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,9 +473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/image/garfield.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/image/garfield.jpg" />
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_181/src.zip!/javax/swing/JLabel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -464,16 +481,6 @@
           <folding>
             <element signature="e#7087#7088#0" expanded="true" />
             <element signature="e#7128#7129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/CtrlButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -488,10 +495,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/CtrlButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stream/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -500,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/IOSurface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -511,9 +525,82 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ShortestPath:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ShortestPath</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -45,7 +45,7 @@ public class IOSurface extends JFrame{
         southPanel.setLayout(new GridLayout(5, 3,20,20));
 
         northPanel.add(titleLabel);
-        titleLabel.setFont(new Font("Dialog", Font.BOLD, 40));
+        titleLabel.setFont(new Font("Arabic", Font.BOLD, 40));
 
         southPanel.add(new JLabel(""));
         southPanel.add(new JLabel(""));
@@ -87,7 +87,7 @@ public class IOSurface extends JFrame{
         ));
         JLabel label = new JLabel(image);
         layeredPane.add(label, JLayeredPane.DEFAULT_LAYER);
-        label.setBounds(-160,-227, image.getIconWidth(), image.getIconHeight());
+        label.setBounds(-150,-227, image.getIconWidth(), image.getIconHeight());
 
         this.setLayeredPane(layeredPane);
         this.setSize(windowWidth, windowHeight);
@@ -98,5 +98,3 @@ public class IOSurface extends JFrame{
     }
 
 }
-
-
