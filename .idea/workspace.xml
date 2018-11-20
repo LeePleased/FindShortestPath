@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8780cf36-8bb3-4361-8ab1-8d26e86c698e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/image/garfield.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/query.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/output/suggest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/suggest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/gui/CtrlButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPath/gui/CtrlButton$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/gui/CtrlButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPath/gui/CtrlButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/gui/IOSurface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPath/gui/IOSurface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/CtrlButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/CtrlButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/IOSurface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/IOSurface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/PlotPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/PlotPanel.java" afterDir="false" />
-    </list>
+    <list default="true" id="8780cf36-8bb3-4361-8ab1-8d26e86c698e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +41,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
-          <entry key="java" value="9996" />
+          <entry key="java" value="10031" />
           <entry key="txt" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9996" />
+          <entry key="JAVA" value="10031" />
           <entry key="PLAIN_TEXT" value="306" />
         </counts>
       </usages-collector>
@@ -69,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/IOSurface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+            <state relative-caret-position="282">
+              <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,11 +160,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="503" />
-    <option name="y" value="53" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="269" />
+    <option name="y" value="46" />
     <option name="width" value="971" />
-    <option name="height" value="736" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -233,7 +222,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542742439453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542742791752" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -300,7 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="475" y="97" width="971" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.46693227" />
@@ -313,7 +306,7 @@
       <window_info id="Azure Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49816403" visible="true" weight="0.32298136" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49816403" visible="true" weight="0.3586207" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.499388" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -507,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/IOSurface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        <state relative-caret-position="282">
+          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
