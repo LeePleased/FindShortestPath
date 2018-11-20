@@ -51,7 +51,10 @@ public class PlotPanel extends JPanel {
         super.paint(g);
 
         for (Site siteA : siteList) {
-            plotNode(g, siteA, true);
+            if (!ifPlotQuery)
+                plotNode(g, siteA, true, 15);
+            else
+                plotNode(g, siteA, true, 10);
 
             for (Site siteB : siteA.getAdjacencyNodes()) {
                 plotEdge(g, siteA, siteB, true);
@@ -70,17 +73,17 @@ public class PlotPanel extends JPanel {
         ifPlotQuery = false;
     }
 
-    private void plotNode(Graphics g, Site site, Boolean flag) {
+    private void plotNode(Graphics g, Site site, Boolean flag, int fontSize) {
         int siteX = resizeWidth(site.getCoordinateX()) + paddingWidth;
         int siteY = resizeHeight(site.getCoordinateY()) + paddingHeight;
 
         ((Graphics2D) g).setStroke(new BasicStroke(2.0f));
         if (flag) {
             g.setColor(Color.BLUE);
-            g.setFont(new Font("Dialog", Font.ITALIC, 15));
+            g.setFont(new Font("Dialog", Font.ITALIC, fontSize));
         } else {
             g.setColor(Color.RED);
-            g.setFont(new Font("Dialog", Font.BOLD, 20));
+            g.setFont(new Font("Dialog", Font.BOLD, fontSize));
         }
         g.drawString(site.getName(), siteY, siteX);
     }
@@ -102,8 +105,8 @@ public class PlotPanel extends JPanel {
         g.drawLine(aY, aX, bY, bX);
 
         if (!flag) {
-            plotNode(g, a, false);
-            plotNode(g, b, false);
+            plotNode(g, a, false, 23);
+            plotNode(g, b, false, 23);
         }
     }
 

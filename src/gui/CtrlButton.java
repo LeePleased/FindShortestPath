@@ -1,5 +1,6 @@
 package gui;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -29,6 +30,8 @@ public class CtrlButton extends JButton {
         this.targetText = targetText;
         this.plotPanel = plotPanel;
 
+        this.setBackground(Color.YELLOW);
+
         this.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -47,7 +50,7 @@ public class CtrlButton extends JButton {
                     List<String> bestPath = Reader.getSolution("data/output/suggest.txt");
 
                     // 重新绘制原图和目标路径.
-                    plotPanel.setSiteList();
+//                    plotPanel.setSiteList();
                     plotPanel.setNameList(bestPath);
                 } catch (Exception ex) {
                     ex.printStackTrace();

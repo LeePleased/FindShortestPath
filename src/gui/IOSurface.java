@@ -1,16 +1,8 @@
 package gui;
 
-import java.awt.Font;
-import java.awt.Color;
-import java.awt.BorderLayout;
-import java.awt.GridLayout;
-import java.awt.FlowLayout;
+import java.awt.*;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.ImageIcon;
+import javax.swing.*;
 
 
 public class IOSurface extends JFrame{
@@ -20,9 +12,12 @@ public class IOSurface extends JFrame{
 
     private JLabel titleLabel = new JLabel("肥加菲的导航仪");
 
+    private JPanel topPanel = new JPanel();
     private JPanel northPanel = new JPanel();
     private JPanel southPanel = new JPanel();
     private PlotPanel centerPanel = new PlotPanel();
+
+    JLayeredPane layeredPane = new JLayeredPane();
 
     // 定义新增节点的输入文本框.
     private JTextField sourceNode = new JTextField();
@@ -35,14 +30,15 @@ public class IOSurface extends JFrame{
                 "查询最短路径", inputDir, outputDir,
                 sourceNode, targetNode, centerPanel
         );
+        button.setForeground(Color.RED);
 
-        this.setLayout(new BorderLayout());
+        topPanel.setLayout(new BorderLayout());
 //        northPanel.setBackground(Color.cyan);
 //        centerPanel.setBackground(Color.lightGray);
 //        southPanel.setBackground(Color.cyan);
 
         // 设置整个应用的图标.
-        this.setIconImage(new ImageIcon("data/image/garfield.jpg").getImage());
+        this.setIconImage(new ImageIcon("data/image/2.jpg").getImage());
 
         northPanel.setLayout(new FlowLayout());
         centerPanel.setLayout(new FlowLayout());
@@ -54,22 +50,49 @@ public class IOSurface extends JFrame{
         southPanel.add(new JLabel(""));
         southPanel.add(new JLabel(""));
         southPanel.add(new JLabel(""));
-        southPanel.add(new JLabel("  出发地点名称:"));
+        JLabel sourceLabel = new JLabel("                   出发地点名称:");
+        southPanel.add(sourceLabel);
+//        sourceLabel.setForeground(Color.red);
+//        sourceLabel.setFont(new Font("Dialog", Font.BOLD, 20));
         southPanel.add(sourceNode);
         southPanel.add(new JLabel("(例如: 法学院)"));
-        southPanel.add(new JLabel("  达到地点名称:"));
+        JLabel targetLabel = new JLabel("                   达到地点名称:");
+        southPanel.add(targetLabel);
         southPanel.add(targetNode);
+//        targetLabel.setForeground(Color.RED);
+//        targetLabel.setFont(new Font("Dialog", Font.BOLD, 20));
         southPanel.add(new JLabel("(例如: 体育场)"));
         southPanel.add(new JLabel(""));
         southPanel.add(button);
         southPanel.add(new JLabel(""));
 
-        this.add(northPanel, BorderLayout.NORTH);
-        this.add(centerPanel, BorderLayout.CENTER);
-        this.add(southPanel, BorderLayout.SOUTH);
+        topPanel.add(northPanel, BorderLayout.NORTH);
+        topPanel.add(centerPanel, BorderLayout.CENTER);
+        topPanel.add(southPanel, BorderLayout.SOUTH);
 
+        layeredPane.add(topPanel, JLayeredPane.DRAG_LAYER);
+        topPanel.setBounds(0 , 0, windowWidth, windowHeight);
+
+        topPanel.setOpaque(false);
+        northPanel.setOpaque(false);
+        centerPanel.setOpaque(false);
+        southPanel.setOpaque(false);
+        sourceNode.setOpaque(false);
+        targetNode.setOpaque(false);
+        button.setOpaque(false);
+
+        ImageIcon image = new ImageIcon("data/image/3.jpg");
+        image.setImage(image.getImage().getScaledInstance(
+                image.getIconWidth(), image.getIconHeight(), Image.SCALE_DEFAULT
+        ));
+        JLabel label = new JLabel(image);
+        layeredPane.add(label, JLayeredPane.DEFAULT_LAYER);
+        label.setBounds(-160,-227, image.getIconWidth(), image.getIconHeight());
+
+        this.setLayeredPane(layeredPane);
         this.setSize(windowWidth, windowHeight);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLocationRelativeTo(null);
         this.setVisible(true);
         this.setResizable(false);
     }

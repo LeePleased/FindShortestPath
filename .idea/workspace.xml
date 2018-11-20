@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8780cf36-8bb3-4361-8ab1-8d26e86c698e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/CtrlButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/PlotPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortestPath.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/coordinates.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/coordinates.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/edge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/edge.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/input/node.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/node.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/image/garfield.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/input/query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/query.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/output/suggest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/suggest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/photo/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/photo/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/photo/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/photo/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/photo/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Dijstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Dijstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Path.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Site.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Measure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Measure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/gui/CtrlButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPath/gui/CtrlButton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/gui/CtrlButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPath/gui/CtrlButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/gui/IOSurface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPath/gui/IOSurface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/CtrlButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/CtrlButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/IOSurface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/IOSurface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/PlotPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/PlotPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,27 +36,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="27" />
+          <entry key="jpg" value="1" />
           <entry key="md" value="1" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="27" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
-          <entry key="java" value="8472" />
+          <entry key="java" value="9996" />
           <entry key="txt" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8472" />
+          <entry key="JAVA" value="9996" />
           <entry key="PLAIN_TEXT" value="306" />
         </counts>
       </usages-collector>
@@ -82,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/IOSurface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="136">
+              <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +81,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stream/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="51">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/CtrlButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="52" column="46" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,6 +128,7 @@
       <find>电机楼</find>
       <find>格物楼</find>
       <find>能源</find>
+      <find>title</find>
     </findStrings>
     <replaceStrings>
       <replace>centerPanel</replace>
@@ -150,9 +150,9 @@
         <option value="$PROJECT_DIR$/data/input/query.txt" />
         <option value="$PROJECT_DIR$/src/stream/Writer.java" />
         <option value="$PROJECT_DIR$/src/stream/Reader.java" />
+        <option value="$PROJECT_DIR$/src/main/Executor.java" />
         <option value="$PROJECT_DIR$/src/gui/CtrlButton.java" />
         <option value="$PROJECT_DIR$/src/gui/PlotPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/Executor.java" />
         <option value="$PROJECT_DIR$/src/gui/IOSurface.java" />
       </list>
     </option>
@@ -171,11 +171,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="576" />
-    <option name="y" value="60" />
-    <option name="width" value="790" />
-    <option name="height" value="708" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="503" />
+    <option name="y" value="53" />
+    <option name="width" value="971" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,7 +199,7 @@
               <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="FindShortestPath" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
@@ -233,7 +233,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542736222745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542742439453" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -300,9 +300,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="576" y="60" width="790" height="708" extended-state="0" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42876345" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.46693227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -312,7 +313,7 @@
       <window_info id="Azure Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49816403" visible="true" weight="0.3275862" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49816403" visible="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.499388" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,7 +326,7 @@
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="HDInsight Spark Submission" order="13" />
       <window_info anchor="bottom" id="SBT Execute" order="14" sideWeight="0.501836" side_tool="true" weight="0.29655173" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.36180124" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32298136" />
       <window_info anchor="bottom" id="Azure Activity Log" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -443,26 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/CtrlButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stream/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -480,26 +461,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/PlotPanel.java">
+    <entry file="file://$PROJECT_DIR$/data/image/garfield.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_181/src.zip!/javax/swing/JLabel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="98" column="61" lean-forward="true" selection-start-line="98" selection-start-column="61" selection-end-line="98" selection-end-column="61" />
+        <state relative-caret-position="136">
+          <caret line="221" column="11" selection-start-line="221" selection-start-column="11" selection-end-line="221" selection-end-column="11" />
+          <folding>
+            <element signature="e#7087#7088#0" expanded="true" />
+            <element signature="e#7128#7129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/CtrlButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#2744#2745#0" expanded="true" />
-            <element signature="e#2795#2796#0" expanded="true" />
-            <element signature="e#2849#2850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/PlotPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stream/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/IOSurface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="136">
+          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
